@@ -694,17 +694,21 @@
         </div>
         
         <!-- Project 2: Saltenpepper -->
-           <div class="group relative bg-neutral-800 rounded-lg overflow-hidden border border-neutral-700 hover:border-[#00ff99] transition-all duration-500 transform hover:-translate-y-1 opacity-100">
-       <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-         <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
-         <div class="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-[#00ff99] to-transparent"></div>
-         <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
-         <div class="absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-[#00ff99] to-transparent"></div>
-       </div>
-      <!-- YouTube Video Embed -->
-      <div class="aspect-w-16 aspect-h-9">
-        <iframe class="w-full" src="https://www.youtube.com/embed/S_3psfqm6QE" title="Saltenpepper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-      </div>
+  <div class="group relative bg-neutral-800 rounded-lg overflow-hidden border border-neutral-700 hover:border-[#00ff99] transition-all duration-500 transform hover:-translate-y-1 opacity-100">
+  <!-- Overlay pour l'effet néon -->
+  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style="z-index: 1;">
+    <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
+    <div class="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-[#00ff99] to-transparent"></div>
+    <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
+    <div class="absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-[#00ff99] to-transparent"></div>
+  </div>
+  
+  <!-- YouTube Video Embed -->
+  <div class="aspect-w-16 aspect-h-9 relative" style="z-index: 2;">
+    <iframe class="w-full pointer-events-auto" src="https://www.youtube.com/embed/S_3psfqm6QE" title="Saltenpepper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
 
           
           <div class="p-6">
