@@ -694,9 +694,14 @@
         </div>
         
         <!-- Project 2: Saltenpepper -->
-         <div class="group relative bg-neutral-800 rounded-lg overflow-hidden border border-neutral-700 hover:border-[#00ff99] transition-all duration-500 transform hover:-translate-y-1 opacity-100">
-  <!-- Neon border effect on hover -->
-  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+         <<div class="group relative bg-neutral-800 rounded-lg overflow-hidden border border-neutral-700 hover:border-[#00ff99] transition-all duration-500 transform hover:-translate-y-1 opacity-100">
+  <!-- Contenu interactif (ex: vidéo, bouton, etc.) placé au-dessus -->
+  <div class="relative z-10">
+    <!-- Placez ici votre contenu interactif -->
+  </div>
+  
+  <!-- Effet de bordure néon au survol -->
+  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style="z-index: 1;">
     <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
     <div class="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-[#00ff99] to-transparent"></div>
     <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#00ff99] to-transparent"></div>
